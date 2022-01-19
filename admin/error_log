@@ -1,0 +1,5 @@
+[29-Apr-2019 03:12:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home1/mpocommx/public_html/admin/_includes/_templates/navegacion.php:65
+Stack trace:
+#0 /home1/mpocommx/public_html/admin/control.php(6): include_once()
+#1 {main}
+  thrown in /home1/mpocommx/public_html/admin/_includes/_templates/navegacion.php on line 65

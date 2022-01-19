@@ -1,0 +1,222 @@
+.spaceBetween {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+div.columna {
+  width: 48%;
+}
+.user-panel {
+  height: 60px;
+}
+.user-panel>.info {
+  position: relative;
+  left: auto;
+}
+.skin-blue .sidebar-menu>li.header {
+  color: #fff;
+}
+img.imgControl {
+  width: 100%;
+}
+.login-page .main-footer {
+  display: none;
+}
+p#contNuevo {
+  color: #fff;
+}
+p#contNuevo i {
+  color: red;
+    font-size: 1.8rem;
+}
+p#contVisitado {
+  color: #fff;
+}
+p#contVisitado i {
+  color: green;
+  font-size: 1.8rem;
+}
+img#imgReg{
+  width: 150px;
+}
+.flexRow{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+.columnCenterCenter {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    }
+div.imgContenedor {
+  margin-right: 30px;
+}
+a.btnBack {
+  background: red;
+  color: #fff;
+  padding: 7.5px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+a.btnBack:hover {
+  background: #ffc000;
+}
+img.formImg {
+  width: 200px;
+}
+div.texto-container {
+  margin-right: 15px;
+}
+
+/*Edicion de producto*/
+div.editImgProd {
+  display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+
+  width: 100%;
+
+}
+td.tableImg img {
+  width: 50px;
+}
+div.prodImgCont {
+  width: 32%;
+  margin: 15px 0;
+  /*max-height: 300px;*/
+  border-top: 1px solid grey;
+}
+div.prodColorCont {
+  margin: 15px 15px;
+  /*max-height: 300px;*/
+  border-top: 1px solid grey;
+}
+div.imgColor img {
+  border-radius: 50px;
+}
+div.imgCont {
+  position: relative;
+}
+div.imgPrin {
+  position: absolute;
+  top: 0;
+  right: 0
+}
+div.imgIco {
+  position: absolute;
+  top: 0;
+  left: 0
+}
+div.imgPrin i {
+  color: green;
+  font-size: 4rem;
+}
+div.imgIco i {
+  color: #e9c621;
+  font-size: 4rem;
+}
+div.imgCont img {
+  width: 100%;
+}
+div.imgSmall  {
+  text-align: center;
+}
+div.imgSmall img {
+  width: 100px;
+}
+div.btnCont {
+  width: 80%;
+}
+div.btnCont a.imgElim {
+  padding: 5px 10px;
+  background-color: #ae1c1c;
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+div.btnCont a.imgPrin {
+  padding: 5px 10px;
+  background-color: green;
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+div.btnCont a.imgIco {
+  padding: 5px 10px;
+  background-color: #e9c621;
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+/*Edicion de usuario*/
+div.editUserCont div.box-body {
+  width: 48%;
+}
+select#id_modulo {
+  width: 150px;
+}
+img#imgMar {
+  height: 100px;
+}
